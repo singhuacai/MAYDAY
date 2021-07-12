@@ -4,13 +4,31 @@ body{
   color: black;
   text-align: center;
 }
+#navbar {
+  /*position: fixed;*/
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  background-color: rgb(3, 2, 88);
+}
+nav ul{
+  margin: 5px;
+  padding: 5px 0px 5px 30px;
+}
+nav li{
+  display: inline;
+  margin-right:20px;
+}
+
 #main{
   background: lightyellow;
 }
 #title1{
-  color: darkblue;
-  font-size: 40px;
-  margin:30px 0px 5px 0px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: darkblue;
+    font: monospace;
+    font-size:60px;
+    margin:30px 0px 5px 0px;
 }
 #title2{
   color: darkblue;
